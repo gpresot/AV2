@@ -15,8 +15,8 @@ function Home() {
         <div className="balao">
           <h1>Ô de casa! Aqui quem manda é o fazendeiro.</h1>
           <p>
-            Três peões foram parar na roça esta semana. Só um volta pra casa,
-            e quem decide é você. Pode votar quantas vezes quiser.
+            Tres peões foram parar na roça esta semana. Só um volta pra casa,
+            e quem decide é você. Pode votar quantas vezes quiser
           </p>
           <div className="home-acoes">
             <Link to="/votacao" className="botao botao-principal">Votar agora</Link>
