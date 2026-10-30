@@ -3,13 +3,13 @@ import { calcularResultado, calcularTotalVotos, obterVotos, zerarVotos } from ".
 
 const [voto, setVotos]=useState(() => obterVotos());
 const resultado = calcularResultado(votos);
-const total = calcularTotalVotos (votos);
+const total = calcularTotalVotos(votos);
 
 function Resultado() {
     return (
         <main>
             <div className="barra">
-                <div className="barra-preenchida" style={{width: '${p.percentual}%'}}>
+                <div className="barra-preenchida" style={{width: `${p.percentual}%`}}>
 
                 </div>
             </div>
